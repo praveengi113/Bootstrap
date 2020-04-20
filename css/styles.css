@@ -112,6 +112,10 @@ p{
   padding: 1rem 0;
 }
 @media(max-width:1028px){
+  .navbar{
+    font-size: 2rem;
+
+  }
   .title-image{
     position: static;
     transform: rotate(0deg);

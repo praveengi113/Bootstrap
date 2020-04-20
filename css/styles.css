@@ -27,12 +27,12 @@ h3{
 p{
   color: #8f8f8f;
 }
-.fas{
+.ico{
   color: #ef8172;
   font-size:4rem;
   padding:10px;
 }
-.fas:hover{
+.ico:hover{
   color: #ff4c68;
 }
 
@@ -109,5 +109,45 @@ p{
   font-family: 'Montserrat';
   font-weight: 900;
   font-size: 2rem;
-  padding: 4rem 0;
+  padding: 1rem 0;
+}
+@media(max-width:1028px){
+  .title-image{
+    position: static;
+    transform: rotate(0deg);
+  }
+.title-row{
+  text-align: center;
+}
+.testimonial-text{
+  font-size: 2rem;
+}
+.btn-cls{
+  text-align: center;
+}
+}
+
+#cta{
+  background-color: #ff4c68;
+}
+#cta-txt{
+  font-family: 'Montserrat-Black';
+  font-size: 4rem;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+  align-content: center;
+
+}
+
+.btn-cls{
+  position: static;
+  text-align: center;
+}
+.footer{
+  padding: 3% 15%;
+  display: inline-block;
+  background-color: #fff;
+  margin: auto;
+  text-align: center;
 }

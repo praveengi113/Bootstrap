@@ -113,7 +113,10 @@ p{
 }
 @media(max-width:1028px){
   .collapse{
-    font-size: 5rem;
+    font-size: 6rem;
+  }
+  .navbar-brand{
+    font-size: 8rem;
   }
   .title-image{
     position: static;
